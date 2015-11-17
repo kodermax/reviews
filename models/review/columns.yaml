@@ -1,0 +1,16 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    author:
+            label: kodermax.reviews::lang.modeldata.author
+    date:
+            label: kodermax.reviews::lang.modeldata.date
+    preview_text:
+        label: kodermax.reviews::lang.modeldata.preview_text
+    detail_text:
+            label: kodermax.reviews::lang.modeldata.detail_text

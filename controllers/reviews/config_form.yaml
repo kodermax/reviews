@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Review
+
+# Model Form Field configuration
+form: $/kodermax/reviews/models/review/fields.yaml
+
+# Model Class name
+modelClass: Kodermax\Reviews\Models\Review
+
+# Default redirect location
+defaultRedirect: kodermax/reviews/reviews
+
+# Create page
+create:
+    title: Create Review
+    redirect: kodermax/reviews/reviews/update/:id
+    redirectClose: kodermax/reviews/reviews
+
+# Update page
+update:
+    title: Edit Review
+    redirect: kodermax/reviews/reviews
+    redirectClose: kodermax/reviews/reviews
+
+# Preview page
+preview:
+    title: Preview Review
